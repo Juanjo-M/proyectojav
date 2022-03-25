@@ -7,15 +7,15 @@
                     <form:form commandName="cliente" method="post" enctype="multipart/form-data">
                         <form:errors path="*"></form:errors><br><br>
                         <form:label path="nombre" cssClass="input-group-addon">Digite el Nombre: </form:label>
-                        <form:input path="nombre" cssClass="form-control"></form:input>
+                        <form:input path="nombre" cssClass="form-control" required="required"></form:input>
                          <form:label path="direccion" cssClass="input-group-addon">Digite la Dirección:  </form:label>
-                        <form:input path="direccion" cssClass="form-control"></form:input>
+                        <form:input path="direccion" cssClass="form-control" required="required"></form:input>
                         <form:label path="correo" cssClass="input-group-addon">Digite el e-Mail: </form:label>
-                        <form:input path="correo" cssClass="form-control"></form:input>
+                        <form:input path="correo" cssClass="form-control" required="required"></form:input>
                         <form:label path="telefono" cssClass="input-group-addon">Digite el Teléfono: </form:label>
-                        <form:input path="telefono" cssClass="form-control"></form:input>
+                        <form:input path="telefono" cssClass="form-control" required="required"></form:input>
                         <form:label path="salario" cssClass="input-group-addon">Digite el salario: </form:label>
-                        <form:input path="salario" cssClass="form-control"></form:input>
+                        <form:input path="salario" cssClass="form-control" required="required"></form:input>
                         
                         <form:label path="foto" cssClass="input-group-addon">Foto: </form:label>
                         <img id="fotoOld"  name="fotoOld" style="height: 60px; width: 60px;" src='<c:url value="${cliente.fotoOld}"/>'/>
