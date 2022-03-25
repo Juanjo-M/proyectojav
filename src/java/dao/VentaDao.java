@@ -7,10 +7,7 @@ import java.util.List;
 import javax.swing.JOptionPane;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-/**
- *
- * @author FABIAN
- */
+
 public class VentaDao {
     JdbcTemplate jdbcTemplate;
     ConectarDB con = new ConectarDB();
